@@ -57,16 +57,20 @@ h3{
 }
 
 /*job org names*/
-h4{
+.organization{
   font-weight: 400;
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 /*job dates*/
-h5{
+.date{
   font-weight: 400;
   font-size: 1em;
   font-style: italic;
+  margin-top: 2px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 /*lists for contact info, skills, education*/
