@@ -3,9 +3,6 @@
 /*general full-page style*/
 body{
   font-family: 'Open Sans', arial, sans-serif;
-  font-size: 1em;
-  color: #444;
-  font-weight: 400;
 }
 
 /*div for the whole html page*/
@@ -29,16 +26,23 @@ body{
 }
 
 /*title under name*/
-strong{
+#title {
   font-size: 1.5em;
+  font-weight: 600;
+  text-align: center;
   color:#33485e;
   text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 /*unordered list with contact info*/
 .menu{
   margin: 0 auto;
   padding: 0;
+  text-align: center;
 }
 
 /*items in list with contact info*/
@@ -62,7 +66,7 @@ strong{
 }
 
 /*job titles*/
-h3{
+.jobtitle{
   font-weight: 600;
   font-size: 1.5em;
 }
@@ -108,4 +112,12 @@ h3{
 /*lists for contact info, skills, education*/
 li{
   font-size: 1em;
+}
+
+/*mission statement*/
+.top{
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
