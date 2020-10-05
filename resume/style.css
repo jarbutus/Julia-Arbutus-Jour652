@@ -35,6 +35,17 @@ strong{
   text-transform: uppercase;
 }
 
+/*unordered list with contact info*/
+.menu{
+  margin: 0 auto;
+  padding: 0;
+}
+
+/*items in list with contact info*/
+.menu li{
+  display: inline;
+}
+
 /*all section titles*/
 .sectionheader{
   font-size: 1.5em;
@@ -68,6 +79,27 @@ h3{
   font-size: 1em;
   font-style: italic;
   margin-top: 2px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/*paragraph elements*/
+.description{
+  margin: 10px 0;
+}
+
+/*education unordered list*/
+#degrees{
+  margin-top: 5px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/*skills list*/
+#do{
+  margin-top: 5px;
   margin-bottom: 0;
   margin-left: 0;
   margin-right: 0;
