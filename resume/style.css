@@ -8,12 +8,24 @@ body{
   font-weight: 400;
 }
 
+/*div for the whole html page*/
+#container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
 /*banner name at top*/
-h1{
+#name {
   font-size: 3em;
   color: #33485e;
   text-transform: uppercase;
   text-align: center;
+  border-bottom: 1px solid #33485e;
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto; /*centers div in the middle of the page*/
 }
 
 /*title under name*/
@@ -24,12 +36,18 @@ strong{
 }
 
 /*all section titles*/
-h2{
+.sectionheader{
   font-size: 1.5em;
   text-transform: uppercase;
   background-color: #33485e;
   color: #fff;
   font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-right: 0;
+  margin-left: 0;
+  width: 70%;
+  min-width: 300px;
 }
 
 /*job titles*/
