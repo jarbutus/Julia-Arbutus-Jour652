@@ -72,8 +72,7 @@ blockquote{
 }
 
 /*read more with links*/
-#readmore{
+.readmore{
   font-family: Georgia, serif;
   font-size: 13px;
-  margin: 0 auto;
 }
