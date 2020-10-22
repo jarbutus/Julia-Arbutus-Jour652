@@ -15,14 +15,23 @@ img{
 #byline{
   font-family: Georgia, Arial, sans-serif;
   font-size: 11px;
+  font-style: italic;
+}
+
+.border{
+  border: 10px solid #EC3DF2;
+  padding: 10px;
+  margin: 15px;
 }
 
 /*headline formatting*/
 h1{
   font-family: Georgia, Arial, sans-serif;
+  font-weight: bold;
+  color: #4D4B45;
   text-align: center;
   font-size: 48px;
-  padding: 20px;
+  padding: 10px;
 }
 
 /*subhead formatting*/
