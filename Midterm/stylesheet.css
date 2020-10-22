@@ -1,0 +1,69 @@
+/*This CSS document was written by Julia Arbutus to accompany the index file for her midterm on October 21-22, 2020.*/
+
+/*full body text, pictures, etc. formatting*/
+#container{
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns*/
+.row:after {
+  content: normal;
+  display: inline;
+  clear: both;
+}
+
+/*masthead formatting*/
+img{
+  width: 100%;
+}
+
+/*byline formatting*/
+#byline{
+  font-family: Georgia, Arial, sans-serif;
+  font-size: 11px;
+}
+
+/*headline formatting*/
+h1{
+  font-family: Georgia, Arial, sans-serif;
+  background-color: #EC3DF2;
+  text-align: center;
+  font-size: 63px;
+  color: white;
+  padding: 10px;
+}
+
+/*subhead formatting*/
+h2{
+  font-family: Georgia, Arial, sans-serif;
+  font-size: 16px;
+}
+
+/*full article text formatting*/
+p{
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+
+/*pullquote formatting*/
+.pquote{
+  float: left;
+  width: 250px;
+  font-family: Georgia, Arial, sans-serif;
+  font-size: 18px;
+  color: white;
+  background-color: #EC3DF2;
+  padding: 10px;
+  margin: 5px 10px 10px 0;
+}
+
+figcaption{
+  font-family: Georgia, Arial, sans-serif;
+  font-size: 11px;
+}
