@@ -6,18 +6,6 @@
   max-width: 900px;
 }
 
-.column {
-  float: left;
-  width: 50%;
-}
-
-/* Clear floats after the columns*/
-.row:after {
-  content: normal;
-  display: inline;
-  clear: both;
-}
-
 /*masthead formatting*/
 img{
   width: 100%;
@@ -32,11 +20,9 @@ img{
 /*headline formatting*/
 h1{
   font-family: Georgia, Arial, sans-serif;
-  background-color: #EC3DF2;
   text-align: center;
-  font-size: 63px;
-  color: white;
-  padding: 10px;
+  font-size: 48px;
+  padding: 20px;
 }
 
 /*subhead formatting*/
