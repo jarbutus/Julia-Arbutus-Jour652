@@ -10,6 +10,12 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+  <!--Font Awesome Kit Code-->
+  <script src="https://kit.fontawesome.com/b107a77c20.js" crossorigin="anonymous"></script>
+
+  <!--Google fonts-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+
   <!--call CSS stylesheet-->
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
 
@@ -30,10 +36,13 @@
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Experience</a>
+          <a class="nav-link" href="#Experience">Experience</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Skills</a>
+          <a class="nav-link" href="#Skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="ProgramProficiencies">Program Proficiencies</a>
         </li>
       </ul>
     </div>
@@ -48,16 +57,54 @@
 
 <div id="fulltext">
   <!--About Me-->
+  <h1>About Me</h1>
 
   <p>I'm a business journalist with an educational background in finance. I'm interested in telling all kinds of stories, but those that help hold corporations accountable or empower consumers are preferred.</p>
 
   <p>As a student pursuing my Master's at the Philip Merrill College of Journalism I have spent my last semester studying public affairs reporting, media law, design and photography. I have internship experience at business publications covering mergers and acquisitions and legislation and investigating corporate malfeasance.</p>
 
   <!--Portfolio-->
+  <h1>Portfolio</h1>
+  <!--Start grid-->
+  <div class="container">
+        <div class="row">
+
+                <div class="col-md-4">
+                  <img src="images/alyssa.jpg" alt="Photo of Alyssa Walters." height="225px" onclick="window.open('https://retriever.umbc.edu/2019/09/welcome-to-queer-bible-study-navigating-sexuality-and-faith/', '_blank');">
+                  <h4>Welcome to Queer Bible Study: Navigating sexuality and faith</h4>
+                </div>
+
+
+                <div class="col-md-4">
+                  <img src="images/vote.jpg" alt="A pen poised over a student government election ballot." height="225px" onclick="window.open('https://retriever.umbc.edu/2020/04/the-definition-of-student-engagement-sga-presidential-ticket-candidates-weigh-in/', '_blank');">
+                  <h4>The definition of student engagement: SGA presidential candidates weigh in</h4>
+                </div>
+
+                <div class="col-md-4">
+                  <img src="images/journal.jpg" alt="Hands writing in a journal." height="225px" onclick="window.open('https://retriever.umbc.edu/2020/04/the-more-mundane-the-better-mass-observation-during-the-coronavirus/', '_blank');">
+                  <h4>'The more mundane, the better': Mass observation during the coronavirus</h4>
+                </div>
+        </div>
+  </div>
+  <!--End Portfolio grid-->
 
   <!--Experience-->
+  <a id="Experience"><h1>Experience</h1></a>
+  <h2>Reporting Intern at The Capitol Forum | June 2020-present</h2>
+  <ul>
+    <li>Investigate anti-trust violations and corporate malfeasance, spanning topics from Chegg and academic integrity to Carvana and its promised 150 pt. inspection</li>
+    <li>Interview government entities, such as the FTC and the GAO, resulting in a deeper understanding of anti-trust law and government processes</li>
+    <li>File and process FOIA requests</li>
+  </ul>
+
+  <h2>Business of Law Reporting Intern at The Daily Record | Summer 2019</h2>
+  <ul>
+    <li>Covered the business of law beat, writing daily and weekly articles</li>
+    <li>Managed relationships with PR Managers from Baltimore-area law firms and law schools</li>
+  </ul>
 
   <!--Freelance-->
+  <h1>Freelance Work</h1>
   <ul>
     <li>Greenbelt News Review weekly freelance reporter | Sept. 2020-present</li>
     <li>"The Holiday Food Wish List: A Wrap-Up of Roland Park Traditions" | Roland Park News Magazine 2019</li>
@@ -66,9 +113,18 @@
   </ul>
 
   <!--Skills/Program Proficiencies-->
-  <ul>Skills
+  <a id="Skills"><h1>Skills</h1></a>
+  <ul>
+    <li><strong>Data analysis.</strong> Experienced in financial data analysis using Excel, Matlab and Stata.</li>
+    <li><strong>Journalism.</strong> Internships at daily business publications. Editor-in-chief of college newspaper for two years. Committed to local journalism and watchdog business journalism.</li>
+    <li><strong>Public speaking.</strong> Led semiweekly team meeting presentations as editor-in-chief of my college newspaper. Frequently represented college student organizations in stakeholder meetings.</li>
+    <li><strong>Teaching.</strong> Experienced in training college newsroom staff in AP style and journalism topics. Mentored two high school students for their AP Capstone projects in journalism.</li>
+    <li><strong>Photography.</strong> Experienced in operating a DSLR camera and editing photos in Adobe Lightroom.
+  </ul>
+
+  <a id="ProgramProficiencies"><h1>Program Proficiencies</h1></a>
+  <ul>
     <li>HTML/CSS</li>
-    <li>DSLR camera</li>
     <li>Adobe Lightroom</li>
     <li>Adobe XD</li>
     <li>Adobe InDesign/InCopy</li>
@@ -79,42 +135,35 @@
   </ul>
 
   <!--Education-->
-
-  <!--Start grid-->
-  <div class="row">
-  </div>
-
-  <div class="row">
-    <div class="col-md-6"></div>
-    <div class="col-md-6"></div>
-  </div>
-
+  <h1>Education</h1>
   <div class="container">
         <div class="row">
 
                 <div class="col-md-4">
-                        <h3>Heading 1</h3>
-                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                  <img src="images/umbc.png" alt="UMBC logo." height="300px" float="left" width="50%">
+                  <h4>B.S. in Financial Economics and B.A. in English Literature | Graduated May 2020</h4>
                 </div>
 
 
                 <div class="col-md-4">
-                        <h3>Heading 2</h3>
-                        <p>Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Lorem ipsum dolor.</p>
-                </div>
-
-                <div class="col-md-4">
-                        <h3>Heading 3</h3>
-                        <p>Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                  <img src="images/umd.jpg" alt="UMD logo." height="300px" float="right" width="50%">
+                  <h4>M.J. in Multiplatform Journalism | Expected graduation Dec. 2021</h4>
                 </div>
         </div>
   </div>
-  <!--End grid-->
-
-  <!--Footer/Let's get in touch.-->
-  <p>&#169; 2020 Julia Arbutus | Made in Washington, D.C.</p>
 
 </div>
+
+  <!--Footer/Let's get in touch.-->
+  <div id="footer">
+    <h6>&#169; 2020 Julia Arbutus | Made in Washington, D.C.</h6>
+    <h5>Let's get in touch:</h5>
+
+    <i class="far fa-envelope-open fa-2x" onclick="window.open('mailto:julia.arbutus@gmail.com', '_blank');"></i>
+    <i class="fab fa-linkedin fa-2x" onclick="window.open('https://www.linkedin.com/in/julia-arbutus-642896172/', '_blank');"></i>
+    <i class="fab fa-github fa-2x" onclick="window.open('https://github.com/jarbutus', '_blank');"></i>
+    <i class="fab fa-twitter fa-2x" onclick="window.open('https://twitter.com/jaarbutus', '_blank');"></i>
+  </div>
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

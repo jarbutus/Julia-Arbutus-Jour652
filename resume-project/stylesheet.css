@@ -1,6 +1,30 @@
+@media screen and (max-width: 480px) {
+ /*Add CSS that only activates on screens less than 480x here*/
+  #fulltext{
+    width: 100%;
+  }
+  .col-md-4{
+    width: 100%;
+  }
+}
+
 #fulltext{
   width: 900px;
   margin: 0 auto;
+  font-family: Montserrat, Arial, serif;
+}
+
+.container{
+  display: flex;
+  width: 100%;
+  background-color: rgba(138, 81, 4, 0.5);
+  margin: 25px 0 25px 0;
+}
+
+.col-md-4{
+  flex: 1;
+  padding: 16px;
+  align: center;
 }
 
 p{
@@ -9,4 +33,75 @@ p{
 
 img{
   width: 100%;
+}
+
+h1{
+  text-align: center;
+  margin: 50px 0 10px 0;
+  border: 5px solid #8A5104;
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2{
+  font-size: 18px;
+  background-color: #8A5104;
+  color: white;
+  padding: 10px 10px 10px 10px;
+  margin: 0 auto;
+}
+
+h4{
+  font-size: 14px;
+  text-align: center;
+  margin: 10px 0 5px 0;
+  color: white;
+}
+
+h5{
+  color: white;
+  font-size: 24px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+h6{
+  text-align: center;
+  color: white;
+}
+
+ul{
+  background-color: rgba(138, 81, 4, 0.5);
+  color: white;
+  padding: 20px 50px 20px 20px;
+  max-width: 100;
+}
+
+#footer{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #8A5104;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.fa-linkedin{
+  color: white;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.fa-github{
+  color: white;
+}
+
+.fa-twitter{
+  color: white;
+  padding-left: 10px;
+}
+
+.fa-envelope-open{
+  color:white;
 }
