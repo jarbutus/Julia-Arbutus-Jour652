@@ -1,18 +1,17 @@
-@media screen and (max-width: 480px) {
- /*Add CSS that only activates on screens less than 480x here*/
-  #fulltext{
-    width: 100%;
-  }
-  .col-md-4{
-    width: 100%;
-  }
-}
-
 #fulltext{
   width: 900px;
   margin: 0 auto;
   font-family: Montserrat, Arial, serif;
 }
+
+@media screen and (max-width: 480px) {
+ /*Add CSS that only activates on screens less than 480x here*/
+  #fulltext{
+    width: 100%;}
+  #jumbotron{
+    width:100%;
+  }
+  }
 
 #aboutme{
   border: 5px solid rgba(138, 81, 4, 0.5);
@@ -30,6 +29,28 @@
   flex: 1;
   padding: 16px;
   align: center;
+}
+
+@media only screen and (max-width: 480px) {
+  .container {
+    width: 100%;
+  }
+  .col-md-4 {
+    width: 100%;
+  }
+}
+
+.col{
+  padding: 20px 20px 20px 20px;
+}
+
+@media only screen and (max-width: 480px) {
+  .container {
+    width: 100%;
+  }
+  .col{
+    width:100%;
+  }
 }
 
 p{
@@ -81,7 +102,17 @@ ul{
   background-color: rgba(138, 81, 4, 0.5);
   color: white;
   padding: 20px 50px 20px 20px;
-  max-width: 100;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+ /*Add CSS that only activates on screens less than 480x here*/
+ ul{
+   width: 100%;
+ }
+ p{
+   width:100%;
+ }
 }
 
 .pprof{
@@ -98,6 +129,7 @@ ul{
   background-color: #8A5104;
   text-align: center;
   margin: 0 auto;
+  width: 100%;
 }
 
 .fa-linkedin{
