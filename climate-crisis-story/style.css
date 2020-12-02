@@ -15,6 +15,7 @@
   font-weight: 700;
   text-align: left;
   font-family: 'Montserrat', sans-serif;
+  margin-top: 20px;
 }
 
 .byline{
@@ -35,6 +36,8 @@ h1{
   text-align: left;
   font-size: 2em;
   font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 h2{
@@ -50,6 +53,21 @@ h3{
   font-size: 2em;
   font-weight: 700;
 }
+
+@media(max-width:700px){
+  h2{
+    font-size: 2em;
+  }
+
+  h3{
+    font-size: 1em;
+  }
+
+  .topper{
+    width: 100%;
+  }
+}
+
 
 h4{
   font-family: 'Montserrat', sans-serif;
@@ -72,7 +90,9 @@ figcaption{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 20px;
   width: 100%;
+  font-size: 0.75em;
 }
 
 .pquote{
@@ -94,6 +114,25 @@ figcaption{
   text-align: center;
 }
 
+.sidebar{
+  background-color: red;
+  color: white;
+  padding: 30px;
+  margin: 20px 0px 20px 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.source{
+  font-size: 1em;
+  text-align: center;
+}
+
+.opening{
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1;
+}
+
 #footer{
     background-color: black;
     color: white;
@@ -103,13 +142,13 @@ figcaption{
 }
 
 a:link {
-  color: blue;
+  color: white;
   background-color: transparent;
   text-decoration: underline;
 }
 
 a:visited {
-  color: gray;
+  color: blue;
   background-color: transparent;
   text-decoration: underline;
 }
