@@ -1,0 +1,94 @@
+#container{
+  width: 900px;
+}
+
+#jumbotron{
+  width: 100%;
+}
+
+.headline{
+  font-size: 3em;
+  font-weight: 700;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.byline{
+  font-size: 1em;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+p{
+  font-family: Georgia, serif;
+  line-height: 180%;
+  width: 100%;
+  font-size: 1.2em;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+figcaption{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.col-md-6{
+  text-align: center;
+}
+
+.pquote{
+  font-size: 3em;
+  font-weight: 700;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #21D4F1;
+  color: white;
+  padding: 20px 50px 20px 50px;
+  margin: 10px 10px 10px 10px;
+}
+
+.attribution{
+  font-size: 0.5em;
+}
+
+#footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a:link {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: purple;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: grey;
+  background-color: transparent;
+  text-decoration: underline;
+}
