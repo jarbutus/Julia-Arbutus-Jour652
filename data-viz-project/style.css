@@ -1,29 +1,21 @@
+/*This was finished on December 13, 2020 by Julia Arbutus for JOUR652.*/
+
+/*top banner*/
 .hero-image{
   width: 100%;
 }
 
+/*container div for all text*/
 #container{
   width: 900px;
 }
 
+/*after-headline explainer and byline*/
 #intro{
   width: 60%;
 }
 
-.headline{
-  font-size: 3em;
-  font-weight: 700;
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.byline{
-  font-size: 1em;
-  text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-}
-
+/*all text*/
 p{
   font-family: Georgia, serif;
   line-height: 180%;
@@ -31,13 +23,7 @@ p{
   font-size: 1.2em;
 }
 
-h1{
-  font-family: 'Montserrat', sans-serif;
-  text-align: left;
-  font-size: 2em;
-  font-weight: 700;
-}
-
+/*explainer after headline*/
 h2{
   font-family: 'Montserrat', sans-serif;
   text-align: center;
@@ -55,6 +41,7 @@ h2{
   }
 }
 
+/*chapter titles*/
 h3{
   font-family: 'Montserrat', sans-serif;
   font-size: 2em;
@@ -63,6 +50,7 @@ h3{
   padding-bottom: 5px;
 }
 
+/*byline format*/
 h4{
   font-family: 'Montserrat', sans-serif;
   font-size: 1em;
@@ -72,6 +60,16 @@ h4{
   padding-bottom: 30px;
 }
 
+ul{
+  text-transform: capitalize;
+  margin: 0 auto;
+  font-family: 'Montserrat,' sans-serif;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  line-height: 180%;
+}
+
+/*image and caption format*/
 img{
   display: block;
   margin-left: auto;
@@ -86,10 +84,12 @@ figcaption{
   width: 80%;
 }
 
+/*graph format*/
 .col-md-6{
   text-align: center;
 }
 
+/*pullquote format and media query*/
 .pquote{
   font-size: 3em;
   font-weight: 700;
@@ -107,10 +107,12 @@ figcaption{
     }
 }
 
+/*pullquote attribution format*/
 .attribution{
   font-size: 0.5em;
 }
 
+/*footer format*/
 #footer{
     background-color: black;
     color: white;
@@ -119,6 +121,7 @@ figcaption{
     padding-bottom: 10px;
 }
 
+/*link colors*/
 a:link {
   color: blue;
   background-color: transparent;
