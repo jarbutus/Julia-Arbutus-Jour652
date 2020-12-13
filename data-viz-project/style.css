@@ -1,9 +1,13 @@
+.hero-image{
+  width: 100%;
+}
+
 #container{
   width: 900px;
 }
 
-#jumbotron{
-  width: 100%;
+#intro{
+  width: 60%;
 }
 
 .headline{
@@ -34,6 +38,40 @@ h1{
   font-weight: 700;
 }
 
+h2{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 2em;
+  font-weight: 700;
+  width: 70%;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 1063px){
+  h2{
+    font-size: 1em;
+  }
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  font-weight: 700;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+h4{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  text-align: center;
+  margin: 0 auto;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+
 img{
   display: block;
   margin-left: auto;
@@ -61,6 +99,12 @@ figcaption{
   color: white;
   padding: 20px 50px 20px 50px;
   margin: 10px 10px 10px 10px;
+}
+
+@media only screen and (max-width: 1063px){
+  .pquote{
+    font-size: 1.5em;
+    }
 }
 
 .attribution{
