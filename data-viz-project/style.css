@@ -62,6 +62,8 @@ h4{
 
 ul{
   text-transform: capitalize;
+  text-align: left;
+  display: table;
   margin: 0 auto;
   font-family: 'Montserrat,' sans-serif;
   padding-top: 10px;
